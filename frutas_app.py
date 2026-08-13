@@ -34,14 +34,14 @@ distancia_banano = math.sqrt(
     (fruta_usuario[0] - banano[0])**2 +
     (fruta_usuario[1] - banano[1])**2 +
     (fruta_usuario[2] - banano[2])**2 +
-    (fruta_usuario[3] - banano[3]**2
+    (fruta_usuario[3] - banano[3])**2
 )
 
 distancia_naranja = math.sqrt(
     (fruta_usuario[0] - naranja[0])**2 +
     (fruta_usuario[1] - naranja[1])**2 +
     (fruta_usuario[2] - naranja[2])**2 +
-    (fruta_usuario[3] - naranja [3]**2
+    (fruta_usuario[3] - naranja [3])**2
 )
 
 # Mostramos las distancias
