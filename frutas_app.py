@@ -27,7 +27,7 @@ distancia_manzana = math.sqrt(
     (fruta_usuario[0] - manzana[0])**2 +
     (fruta_usuario[1] - manzana[1])**2 +
     (fruta_usuario[2] - manzana[2])**2 +
-    (fruta_usuario[3] - manzana[3]**2
+    (fruta_usuario[3] - manzana[3])**2
 )
 
 distancia_banano = math.sqrt(
